@@ -1,0 +1,75 @@
+main {
+    min-height: 75vh;
+}
+
+.login-form-container {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signup{
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signup .form-floating:focus-within {
+    z-index: 2;
+}
+.form-signup .form-control{
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.form-signin input[type="email"] {
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+   }
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signup .form-control.first-input {
+
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+}
+
+.form-signup .form-control.last-input {
+    margin-bottom: 30px;
+
+    border-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+.img-thumbnail.small-img {
+    max-height: 100px;
+    max-width: 100px;
+}
+.img-thumbnail.medium-img {
+    max-height: 300px;
+    max-width: 300px;
+}
+input[type='number']{
+    width: 100px;
+}
+.price-field{
+    width: 150px;
+}
+
+
+
